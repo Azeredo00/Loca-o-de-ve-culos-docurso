@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 120vh;
+}
+
+.card {
+    width: 50%;
+    max-width: 450px;
+    background: #ffffff;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding: 34px;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px 0px rgba(0,0,0,0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.campo {
+    padding: 15px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    transition: all linear 190ms;
+    font-size: 0.9em;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+.campo::placeholder {
+    color:#666;
+}
+
+.campo:focus {
+    border-color: #020024;
+}
+
+.btn {
+    padding: 15px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: all linear 190ms;
+}
+
+.btn:hover {
+    transform: scale(1.04);
+    background-color: #0b00d3;
+}
+
+p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+a {
+    font-size: 0.9em;
+    color: #020024;
+    margin-top: 5px;
+}
