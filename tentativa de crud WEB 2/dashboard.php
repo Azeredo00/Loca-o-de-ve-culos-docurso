@@ -9,18 +9,17 @@
 <body>
     <div class="all">
         <div class="header">
-            <div>
-                <a 
-                    href="https://www.roblox.com/games/9865958871/BIG-Paintball-2#!/game-instances">
-                </a>
+            <button>
+                <a href="https://www.roblox.com/games/9865958871/BIG-Paintball-2#!/game-instances">
                 Ver Veículos
-            </div>
-            <div>
+                </a>
+            </button>
+            <button>
                 <a
                     href="https://www.roblox.com/games/9865958871/BIG-Paintball-2#!/game-instances">
+                    Minha conta
                 </a>
-                Minha conta
-            </div>
+            </button>
         </div>
         <div class="content">
             <div class="vehicles">
