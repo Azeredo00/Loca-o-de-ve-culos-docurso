@@ -32,7 +32,7 @@ function accessVerify(string $password, string $email): void
         ) {
             $_SESSION['user_name'] = $register['name'];
             $_SESSION['user_gender'] = $register['gender'];
-            header('location:dashboard.php'); // Redirect
+            header('location:dashboard.html'); // Redirect
             exit;
         }
     }
